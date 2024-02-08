@@ -1,6 +1,6 @@
 import React, { createContext, useState } from "react";
 import axios from "axios";
-import { apiKey } from "../api/config";
+import { apiKey } from "./api/config";
 
 export const PhotoContext = createContext();
 
@@ -10,10 +10,10 @@ const PhotoContextProvider = (props) => {
   const runSearch = (query) => {
     axios
       .get(
-        `https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=${apiKey}&tags=${query}&per_page=24&format=json&nojsoncallback=1`
+        `https://api.unsplash.com/search/photos?client_id=${apiKey}&query=${query}&per_page=25`
       )
       .then((response) => {
-        setImage(response.data.photos.photo);
+        setImage(response.results);
         setLoading(false);
       })
       .catch((error) => {
