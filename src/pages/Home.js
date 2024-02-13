@@ -7,7 +7,7 @@ import Button from "../components/Button";
 
 function Home() {
   // const { images, loading, runSearch } = useContext(PhotoContext);
-  const [searchTerm, setSearchTerm] = useState("mountain");
+  const [searchTerm, setSearchTerm] = useState("vietnam");
 
   useEffect(() => {
     console.log(searchTerm);
@@ -41,11 +41,11 @@ function Home() {
   };
 
   return (
-    <div className="mx-10 my-10 max-h-max ">
+    <div className="mx-8 md:mx-20 my-10 max-h-max ">
       <Form handleSubmit={handleSubmit} />
       <Button setSearchTerm={setSearchTerm} />
 
-      <div className="grid grid-cols-4 gap-8 mt-8 mx-8">
+      <div className="grid md:grid-cols-4 gap-8 mt-8">
         {image.map((picture) => (
           <div key={picture.id} className="mt-5 overflow-hidden">
             <img

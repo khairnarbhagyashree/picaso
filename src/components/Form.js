@@ -9,13 +9,9 @@ const Form = ({ handleSubmit, history }) => {
   return (
     <div className="flex justify-center">
       <form
-        className="search-form  w-1/2"
+        className="search-form w-full md:w-1/2"
         onSubmit={(e) => handleSubmit(e, searchEntry)}
       >
-        {/* <div className="relative rounded-lg w-64 overflow-hidden  before:absolute before:w-12 before:h-12 before:content[''] before:right-0 before:bg-violet-500 before:rounded-full before:blur-lg  after:absolute after:-z-10 after:w-20 after:h-20 after:content['']  after:bg-rose-300 after:right-12 after:top-3 after:rounded-full after:blur-lg">
- <input onChange={updateSearchInput} value={searchEntry} placeholder="Just type in..." className="relative bg-transparent ring-0 outline-none border border-neutral-500 text-neutral-900 placeholder-violet-700 text-sm rounded-lg focus:ring-violet-500 placeholder-opacity-60 focus:border-violet-500 block w-full p-2.5 checked:bg-emerald-500" type="text" />
-</div> */}
-
         <div className="relative">
           <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
             <svg

@@ -4,7 +4,7 @@ const Button = ({ setSearchTerm }) => {
   const buttons = ["Forest", "Paris", "Pizza", "Dogs", "Ice-cream"];
 
   return (
-    <div className="mt-8 space-x-10">
+    <div className="flex flex-col md:flex-row items-center justify-center py-4 md:py-8 flex-wrap">
       {buttons.map((value) => {
         return (
           <button
