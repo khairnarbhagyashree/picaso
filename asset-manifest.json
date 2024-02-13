@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/picaso/static/css/main.f3c9eccd.css",
-    "main.js": "/picaso/static/js/main.b21ed56f.js",
+    "main.css": "/picaso/static/css/main.9ef72319.css",
+    "main.js": "/picaso/static/js/main.3171dc8c.js",
     "static/js/592.ad4987c9.chunk.js": "/picaso/static/js/592.ad4987c9.chunk.js",
     "index.html": "/picaso/index.html",
-    "main.f3c9eccd.css.map": "/picaso/static/css/main.f3c9eccd.css.map",
-    "main.b21ed56f.js.map": "/picaso/static/js/main.b21ed56f.js.map",
+    "main.9ef72319.css.map": "/picaso/static/css/main.9ef72319.css.map",
+    "main.3171dc8c.js.map": "/picaso/static/js/main.3171dc8c.js.map",
     "592.ad4987c9.chunk.js.map": "/picaso/static/js/592.ad4987c9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f3c9eccd.css",
-    "static/js/main.b21ed56f.js"
+    "static/css/main.9ef72319.css",
+    "static/js/main.3171dc8c.js"
   ]
 }
