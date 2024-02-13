@@ -1,70 +1,40 @@
-# Getting Started with Create React App
+# ***Picaso*** 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Picaso is an image gallery app that fetches images from the Unsplash API. This project was built for learning purposes and incorporates the latest technologies.
 
-## Available Scripts
+***Technologies***
 
-In the project directory, you can run:
+`React.js`
+`TailwindCSS`
+`Unsplash API`
 
-### `npm start`
+***Process***
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+I began this project by setting up with create-react-app. I installed Tailwind CSS and router, along with Axios for API interaction. Then, I created an API using the Unsplash platform and utilized Context API for state management.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+***What I Learned***
 
-### `npm test`
+Throughout this project, I gained valuable skills and a deeper understanding of Context API and React. Additionally, I used TailwindCSS for styling the elements.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+***Key Learnings***:
+Utilizing createContext Hook
+Understanding React Hooks and Rendering
 
-### `npm run build`
+***How can it be improved?***
+To enhance the project, one could consider using different Unsplash APIs to create a collection of pictures.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+***Running the Project:***
+To run the project in your local environment, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+`1. Clone the repository to your local machine.`
+`2. Generate an API key from Unsplash and rename .env.sample to .env, then place the API key in the file.`
+`3. Run yarn install or npm i in the project directory to install the required dependencies.`
+`4. Run yarn dev or npm dev to start the project.`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Open (https://khairnarbhagyashree.github.io/picaso/) in your web browser to view the app.
 
-### `npm run eject`
+***Video***
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+https://github.com/khairnarbhagyashree/picaso/assets/126438529/541295df-874f-4430-bbe8-9f67689d41f5
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
