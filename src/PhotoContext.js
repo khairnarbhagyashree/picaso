@@ -13,7 +13,7 @@ const PhotoContextProvider = (props) => {
         `https://api.unsplash.com/search/photos?client_id=${apiKey}&query=${query}&per_page=25`
       )
       .then((response) => {
-        setImage(response.results);
+        setImage(response.data.results);
         setLoading(false);
       })
       .catch((error) => {
@@ -23,6 +23,7 @@ const PhotoContextProvider = (props) => {
         );
       });
   };
+
   return (
     <PhotoContext.Provider value={{ image, loading, runSearch }}>
       {props.children}

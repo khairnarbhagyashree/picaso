@@ -8,6 +8,7 @@ const Form = ({ handleSubmit, history }) => {
 
   return (
     <div className="flex justify-center">
+      <div className="text-green-700"></div>
       <form
         className="search-form w-full md:w-1/2"
         onSubmit={(e) => handleSubmit(e, searchEntry)}
